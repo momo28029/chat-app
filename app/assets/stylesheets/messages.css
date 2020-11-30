@@ -11,12 +11,16 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .rooms{
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
 
 .chat{
@@ -27,6 +31,7 @@
   height: 100px;
   background-color: #ffffff;
   padding: 0 40px;
+
 }
 
 .messages{
@@ -39,4 +44,30 @@ form{
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px;
+}
+
+.header-name a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.create-room a{
+  border: 1px solid lightblue;
+  color: deepskyblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.create-room{
+  font-size: 10px;
+}
+
+.room-name{
+  padding: 20px 0 40px;
+}
+
+.room-name a{
+  color: white;
+  text-decoration: none;
 }
